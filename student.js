@@ -1,4 +1,4 @@
-let student = {
+const student = {
     name: "Marie",
     age: 20,
     courses: []
@@ -12,10 +12,10 @@ student.grade = "A";
 student.courses.push("Math", "Physics", "Chemistry");
 
 // Trouver l'index de "Physics"
-let physicsIndex = student.courses.indexOf("Physics");
+const physicsIndex = student.courses.indexOf("Physics");
 
 // Créer un nouveau tableau contenant les deux premiers éléments de courses
-let firstTwoCourses = student.courses.slice(0, 2);
+const firstTwoCourses = student.courses.slice(0, 2);
 
 // Afficher les résultats
 console.log(" student  :", student);
