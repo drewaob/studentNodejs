@@ -4,7 +4,7 @@ const student = {
     courses: []
 };
 
-// Modifier age et ajouter grade
+// Modif age et ajout grade
 student.age = 21;
 student.grade = "A";
 
@@ -18,6 +18,6 @@ const physicsIndex = student.courses.indexOf("Physics");
 const firstTwoCourses = student.courses.slice(0, 2);
 
 // Afficher les résultats
-console.log(" student  :", student);
-console.log("Index 'Physics' :", physicsIndex);
-console.log("2 premiers cours :", firstTwoCourses);
+console.log(student);
+console.log(physicsIndex);
+console.log(firstTwoCourses);
