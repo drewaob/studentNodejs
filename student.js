@@ -11,7 +11,7 @@ student.grade = "A";
 // Ajouter des cours au tableau courses
 student.courses.push("Math", "Physics", "Chemistry");
 
-// Trouver l'index de "Physics"
+// index de "Physics"
 const physicsIndex = student.courses.indexOf("Physics");
 
 // Tableau 2 premiers cours
