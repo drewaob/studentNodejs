@@ -14,10 +14,10 @@ student.courses.push("Math", "Physics", "Chemistry");
 // Trouver l'index de "Physics"
 const physicsIndex = student.courses.indexOf("Physics");
 
-// Créer un nouveau tableau contenant les deux premiers éléments de courses
+// Tableau 2 premiers cours
 const firstTwoCourses = student.courses.slice(0, 2);
 
-// Afficher les résultats
+// Affiche  résultats
 console.log(student);
 console.log(physicsIndex);
 console.log(firstTwoCourses);
